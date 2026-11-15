@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Little Magic For You 💗</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<main class="wish-page">
+
+    <div class="stars"></div>
+
+    <!-- COUNTDOWN -->
+
+    <section id="countdownSection" class="countdown-section">
+
+        <p class="eyebrow">
+            ✨ SOMETHING SPECIAL IS WAITING ✨
+        </p>
+
+        <h1>Her Special Day</h1>
+
+        <h2>is Coming</h2>
+
+     
+
+        <div id="countdown" class="countdown-number">
+            10
+        </div>
+
+        <p class="countdown-label">
+            SECONDS TO YOUR SURPRISE
+        </p>
+
+    </section>
+
+
+    <!-- MAGIC ORB -->
+
+    <section id="wishContent" class="wish-content hidden">
+
+        <p class="wish-title">
+            A LITTLE MAGIC FOR YOU
+        </p>
+
+        <div class="magic-container">
+
+            <canvas id="starCanvas"></canvas>
+
+            <button
+                id="magicOrb"
+                class="magic-orb"
+                aria-label="Nhấn vào quả cầu">
+
+                <span class="orb-inner"></span>
+
+            </button>
+
+            <p id="magicHint" class="magic-hint">
+                ✨ Nhấn vào đây ✨
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- LETTER REVEAL -->
+
+    <section id="letterReveal" class="letter-reveal hidden">
+
+        <p class="letter-reveal-title">
+            SOMETHING FROM MY HEART 💗
+        </p>
+
+        <div class="reveal-envelope">
+
+            <div class="reveal-envelope-flap"></div>
+
+            <div class="reveal-envelope-icon">
+                💌
+            </div>
+
+        </div>
+
+        
+
+        <a
+            href="letter.html"
+            target="birthdayFrame"
+            class="pink-button reveal-button">
+
+            OPEN THE LETTER 💌
+
+        </a>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
